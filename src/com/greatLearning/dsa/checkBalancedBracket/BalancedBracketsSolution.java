@@ -79,12 +79,11 @@ public class BalancedBracketsSolution {
 		BalancedBracketsSolution balancedBracketsSolution = new BalancedBracketsSolution();
 
 		if (balancedBracketsSolution.isExpressionBalanced(expToBeChecked)) {
-			System.out
-					.println("For Expression : " + expToBeChecked + "\n" + "The entered String has Balanced Brackets");
+			System.out.println("For String : " + expToBeChecked + "\n" + "The entered String has Balanced Brackets");
 
 		} else {
-			System.out.println("For Expression : " + expToBeChecked + "\n"
-					+ "The entered Strings do not contain Balanced Brackets");
+			System.out.println(
+					"For String : " + expToBeChecked + "\n" + "The entered Strings do not contain Balanced Brackets");
 
 		}
 
